@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.app {
+    width: 100%;
+    height: 100vh;
+    background: #d8fbf5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.calculator {
+    background: #3a4453;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    -webkit-box-shadow: -8px -8px 15px rgb(25 143 72 / 10%), 5px 5px 10px rgb(11 29 62 / 20%);
+            box-shadow: -8px -8px 15px rgb(25 143 72 / 10%), 5px 5px 10px rgb(11 29 62 / 20%);
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+form .display {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .display input {
+    text-align: right;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-size: 45px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+form input.equel {
+    width: 145px;
+}
+
+form input.oprator {
+    color: #33c76e;
+}
