@@ -12,3 +12,5 @@ Whether you're a beginner looking to learn more about web development or simply 
 
 
 ![Calculator Preview Image](https://raw.githubusercontent.com/ShiponKarmakar/calculator/main/screenshot.png)
+
+## [Live Demo]([https://duckduckgo.com](https://shiponkarmakar.com/projects/calculator/))
